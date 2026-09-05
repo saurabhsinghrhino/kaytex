@@ -19,7 +19,7 @@ export const Categories = () => {
   const categories = [
     {
       id: "tshirts",
-      name: "Jersey wear",
+      name: "Embroidery and printed shirts",
       desc: "Jersey Tops, Printed Hoodies, Garment Sweatshirts, Jersey Midi and Mini Dresses",
       img: "https://media.sezane.com/image/upload/c_fill,d_placeholder_dark.png,fl_progressive:semi,h_816,q_auto:best,w_582/c3othgbvh49oqhl3edyf.jpg?epik=dj0yJnU9SF96SjlYVVJkeWwzTVlmSWQtY2lmMXNFYlNRcVpPdWomcD0wJm49a1Z4YUt4NlkzV2cyd185d2c2Z2V2QSZ0PUFBQUFBR3FaSFhn",
       gridClass: "md:col-span-7 aspect-[4/3] md:aspect-[16/10]",
