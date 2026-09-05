@@ -5,12 +5,6 @@ import { useLenis } from "../hooks/useLenis";
 import gsap from "gsap";
 import { ArrowUpRight } from "lucide-react";
 
-// Using our custom generated assets
-import tshirtImg from "../assets/hero.png";
-import hoodieImg from "../assets/about_main.jpg";
-import jacketImg from "../assets/cat_jacket.jpg";
-import customImg from "../assets/about_detail.jpg";
-
 export const Categories = () => {
   const navigate = useNavigate();
   const { scrollTo } = useLenis();
@@ -20,27 +14,27 @@ export const Categories = () => {
     {
       id: "tshirts",
       name: "Embroidery and printed shirts",
-      desc: "Jersey Tops, Printed Hoodies, Garment Sweatshirts, Jersey Midi and Mini Dresses",
-      img: "https://media.sezane.com/image/upload/c_fill,d_placeholder_dark.png,fl_progressive:semi,h_816,q_auto:best,w_582/c3othgbvh49oqhl3edyf.jpg?epik=dj0yJnU9SF96SjlYVVJkeWwzTVlmSWQtY2lmMXNFYlNRcVpPdWomcD0wJm49a1Z4YUt4NlkzV2cyd185d2c2Z2V2QSZ0PUFBQUFBR3FaSFhn",
+      img: "/Shirt-2.png",
       gridClass: "md:col-span-7 aspect-[4/3] md:aspect-[16/10]",
       imgClass: "object-cover w-full h-full",
+      url: "/services/clothing-manufacturing/womens-clothing",
     },
     {
       id: "hoodies",
       name: "High-End Garments",
-      desc: "Beaded Dresses, Indian Artisan, Luxury wear.",
       img: "https://i.pinimg.com/736x/a0/e9/93/a0e9933db8fcdb8bc5575a4df1e700e4.jpg",
       gridClass: "md:col-span-5 aspect-[3/4]",
       imgClass: "object-cover w-full h-full",
+      url: "/services/clothing-manufacturing/womens-clothing",
     },
     {
       id: "custom",
       name: "Custom Manufacturing",
-      desc: "Spring/Summer Dresses, Maxi Dresses, Mini Dresses, Poplin & Linen Day Dresses.",
       img: "https://images.unsplash.com/photo-1673201229733-69d19c5c4a87?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       gridClass:
         "md:col-span-7 aspect-[4/3] md:aspect-[16/10] md:-translate-y-12",
       imgClass: "object-cover w-full h-full",
+      url: "/services/clothing-manufacturing/womens-clothing",
     },
   ];
 
@@ -101,7 +95,7 @@ export const Categories = () => {
             <div
               key={cat.id}
               className={`category-card group relative overflow-hidden bg-zinc-900 cursor-pointer ${cat.gridClass}`}
-              onClick={() => navigate("/services")}
+              onClick={() => navigate(cat.url)}
             >
               {/* Image Frame */}
               <div className="w-full h-full overflow-hidden relative">
@@ -117,12 +111,9 @@ export const Categories = () => {
               {/* Title & Arrow overlay */}
               <div className="absolute bottom-0 left-0 right-0 p-6 md:p-10 flex items-end justify-between text-white z-10">
                 <div>
-                  <h3 className="font-serif text-xl md:text-2xl uppercase tracking-wider font-light mb-1">
+                  <h3 className="font-serif text-xl md:text-2xl uppercase tracking-wider font-light">
                     {cat.name}
                   </h3>
-                  <p className="text-[10px] md:text-xs tracking-[0.15em] text-white/60 font-light leading-relaxed">
-                    {cat.desc}
-                  </p>
                 </div>
 
                 {/* Circular hover button */}

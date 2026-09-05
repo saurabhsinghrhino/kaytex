@@ -348,7 +348,7 @@ export const WomensClothing = () => {
       num: "01",
       title: "Dress Manufacturing",
       desc: "Develop and manufacture women's dresses across different silhouettes, fabric directions, construction details, and finishing requirements.",
-      img: "https://images.unsplash.com/photo-1673201229733-69d19c5c4a87?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      img: "/Shirt.jpeg",
     },
     {
       num: "02",
@@ -360,7 +360,7 @@ export const WomensClothing = () => {
       num: "03",
       title: "Jerseywear",
       desc: "Manufacture women's jersey apparel with attention to fabric behavior, garment construction, fit, finishing, and production consistency.",
-      img: "https://images.unsplash.com/photo-1669024669542-5793706a2496?q=80&w=2344&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      img: "/Top.jpeg",
     },
   ];
 
@@ -469,8 +469,8 @@ export const WomensClothing = () => {
             ref={heroDescRef}
             className="text-xs md:text-sm font-light text-white/70 tracking-wide max-w-3xl mx-auto mb-10 leading-relaxed opacity-0"
           >
-            From product development to bulk production, KAYTEX-EXPORTERS works with
-            womenswear brands to bring thoughtfully designed garments into
+            From product development to bulk production, KAYTEX-EXPORTERS works
+            with womenswear brands to bring thoughtfully designed garments into
             production with consistency, flexibility, and a focus on long-term
             growth.
           </p>
@@ -498,9 +498,9 @@ export const WomensClothing = () => {
             We Are Your Strategic Clothing Partner
           </h2>
           <p className="text-sm font-light text-white/70 leading-relaxed tracking-wide partner-anim opacity-0">
-            KAYTEX-EXPORTERS works alongside womenswear brands to connect product
-            development, materials, manufacturing, and production into a more
-            coordinated journey. Our focus is to support brands beyond
+            KAYTEX-EXPORTERS works alongside womenswear brands to connect
+            product development, materials, manufacturing, and production into a
+            more coordinated journey. Our focus is to support brands beyond
             individual orders and build relationships that can grow with their
             collections.
           </p>
@@ -590,7 +590,7 @@ export const WomensClothing = () => {
                   <img
                     src={item.img}
                     alt={item.title}
-                    className="w-full h-full object-cover object-center grayscale group-hover:grayscale-0 group-hover:scale-104 transition-all duration-[1s]"
+                    className="w-full h-full object-cover object-center group-hover:scale-104 transition-all duration-[1s]"
                     loading="lazy"
                   />
                   <div className="absolute inset-0 bg-black/10 pointer-events-none" />
@@ -891,8 +891,8 @@ export const WomensClothing = () => {
             </span>
           </h2>
           <p className="text-xs md:text-sm font-light text-white/50 tracking-wide max-w-md mx-auto mb-12 leading-relaxed">
-            Share your product requirements with KAYTEX-EXPORTERS and let's explore how we
-            can support your next manufacturing project.
+            Share your product requirements with KAYTEX-EXPORTERS and let's
+            explore how we can support your next manufacturing project.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6">
             <Link
