@@ -116,7 +116,7 @@ const founders = [
   {
     name: "Dhirendra Kumar Agrawal",
     role: "Founder, Kay Tex Exporters",
-    image: "founder.jpeg",
+    image: "founder.png",
     description:
       "Founded in 1996, Kay Tex Exporters began with a simple vision: to bring quality craftsmanship in women's wear and kids' wear to the global market. Under the leadership of Dhirendra Kumar Agrawal, the company has grown into a trusted name in garment exports, known for its commitment to quality, reliability, and timely delivery. Over nearly three decades, Kay Tex Exporters has built strong, lasting partnerships with clients across Europe, the USA, and the UAE — serving international fashion brands and retailers with a focus on craftsmanship, consistency, and trust.",
   },
@@ -798,7 +798,7 @@ const Founders = () => {
                 <img
                   src={founder.image}
                   alt={founder.name}
-                  className="w-full h-full object-cover grayscale transition-all duration-700 ease-out group-hover:scale-105 group-hover:grayscale-0"
+                  className="w-full h-full object-cover transition-all duration-700 ease-out group-hover:scale-105 "
                 />
               </div>
               <h3 className="font-serif text-2xl text-white font-light tracking-wide uppercase mb-1">
