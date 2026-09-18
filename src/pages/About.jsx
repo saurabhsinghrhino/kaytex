@@ -114,20 +114,11 @@ const pillarsData = [
 // // TODO: Replace demo founder names, images and descriptions with actual Kaytex founder information.
 const founders = [
   {
-    name: "Arjun Mehta",
-    role: "Co-Founder & Director",
-    image:
-      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=85",
+    name: "Dhirendra Kumar Agrawal",
+    role: "Founder, Kay Tex Exporters",
+    image: "founder.jpeg",
     description:
-      "Arjun brings a strong focus on apparel development, business strategy, and building reliable relationships across the fashion and manufacturing ecosystem.",
-  },
-  {
-    name: "Ananya Kapoor",
-    role: "Co-Founder & Creative Director",
-    image:
-      "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=85",
-    description:
-      "Ananya focuses on design direction, brand identity, and creating thoughtful apparel experiences that balance contemporary style with timeless quality.",
+      "Founded in 1996, Kay Tex Exporters began with a simple vision: to bring quality craftsmanship in women's wear and kids' wear to the global market. Under the leadership of Dhirendra Kumar Agrawal, the company has grown into a trusted name in garment exports, known for its commitment to quality, reliability, and timely delivery. Over nearly three decades, Kay Tex Exporters has built strong, lasting partnerships with clients across Europe, the USA, and the UAE — serving international fashion brands and retailers with a focus on craftsmanship, consistency, and trust.",
   },
 ];
 
@@ -1005,7 +996,7 @@ export const About = () => {
       <WhatSetsUsApart />
       <ImpactStats />
       <TrustedGrowth />
-      {/* <Founders /> */}
+      <Founders />
       <JourneyTimeline />
       <WhyKaytex />
       <OurVision />
