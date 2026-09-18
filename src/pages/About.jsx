@@ -791,25 +791,30 @@ const Founders = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-16">
+        <div className="w-full h-full flex justify-between items-center">
           {founders.map((founder) => (
-            <div key={founder.name} className="founder-card group">
-              <div className="relative aspect-[4/5] w-full border border-white/10 overflow-hidden mb-8 bg-white/5">
+            <div
+              key={founder.name}
+              className="founder-card group flex justify-between items-center gap-12 px-7"
+            >
+              <div className="relative aspect-[4/5] h-[500px] w-1/2 border border-white/10 overflow-hidden mb-8 bg-white/5">
                 <img
                   src={founder.image}
                   alt={founder.name}
                   className="w-full h-full object-cover transition-all duration-700 ease-out group-hover:scale-105 "
                 />
               </div>
-              <h3 className="font-serif text-2xl text-white font-light tracking-wide uppercase mb-1">
-                {founder.name}
-              </h3>
-              <span className="font-mono text-xs uppercase tracking-widest text-[#D4C5B9] block mb-4">
-                {founder.role}
-              </span>
-              <p className="text-xs sm:text-sm text-white/60 font-light leading-relaxed tracking-wide">
-                {founder.description}
-              </p>
+              <div className="relative w-1/2">
+                <h3 className="font-serif text-2xl text-white font-light tracking-wide uppercase mb-1">
+                  {founder.name}
+                </h3>
+                <span className="font-mono text-xs uppercase tracking-widest text-[#D4C5B9] block mb-4">
+                  {founder.role}
+                </span>
+                <p className="text-xs sm:text-sm text-white/60 font-light leading-relaxed tracking-wide">
+                  {founder.description}
+                </p>
+              </div>
             </div>
           ))}
         </div>
