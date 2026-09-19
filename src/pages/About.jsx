@@ -775,43 +775,54 @@ const Founders = () => {
   return (
     <section
       ref={sectionRef}
-      className="relative w-full bg-[#0A0A0A] py-20 md:py-32 px-6 md:px-12 border-b border-white/5"
+      className="relative w-full bg-[#0A0A0A] py-16 sm:py-20 md:py-28 lg:py-32 px-4 sm:px-6 md:px-10 lg:px-12 border-b border-white/5"
     >
       <div className="mx-auto max-w-7xl">
-        <div className="mb-16 md:mb-20">
-          <span className="text-[10px] sm:text-xs font-mono uppercase tracking-[0.3em] text-[#D4C5B9] block mb-3">
+        {/* Section Header */}
+        <div className="mb-12 sm:mb-16 md:mb-20">
+          <span className="text-[9px] sm:text-[10px] md:text-xs font-mono uppercase tracking-[0.25em] sm:tracking-[0.3em] text-[#D4C5B9] block mb-3">
             MEET THE FOUNDERS
           </span>
-          <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl font-light tracking-wide text-white uppercase max-w-2xl">
+
+          <h2 className="font-serif text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-light tracking-wide text-white uppercase max-w-2xl leading-[1.15]">
             The Leadership Behind KAYTEX-EXPORTERS.
           </h2>
-          <p className="text-xs sm:text-sm text-white/60 font-light tracking-wide mt-3 max-w-lg leading-relaxed">
+
+          <p className="text-[11px] sm:text-xs md:text-sm text-white/60 font-light tracking-wide mt-4 max-w-lg leading-relaxed">
             Behind KAYTEX-EXPORTERS is a team driven by a shared passion for
             apparel, quality, and building something meaningful.
           </p>
         </div>
 
-        <div className="w-full h-full flex justify-between items-center">
-          {founders.map((founder) => (
+        {/* Founders */}
+        <div className="w-full space-y-16 sm:space-y-20 md:space-y-24 lg:space-y-32">
+          {founders.map((founder, index) => (
             <div
               key={founder.name}
-              className="founder-card group flex justify-between items-center gap-12 px-7"
+              className={`founder-card group flex flex-col lg:flex-row items-start lg:items-center gap-8 sm:gap-10 md:gap-12 lg:gap-16 ${
+                index % 2 !== 0 ? "lg:flex-row-reverse" : ""
+              }`}
             >
-              <div className="relative aspect-[4/5] h-[500px] w-1/2 border border-white/10 overflow-hidden mb-8 bg-white/5">
+              {/* Founder Image */}
+              <div className="relative w-full sm:w-[85%] md:w-[70%] lg:w-1/2 mx-auto lg:mx-0 aspect-[4/5] max-h-[520px] border border-white/10 overflow-hidden bg-white/5">
                 <img
                   src={founder.image}
                   alt={founder.name}
-                  className="w-full h-full object-cover transition-all duration-700 ease-out group-hover:scale-105 "
+                  className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
                 />
               </div>
-              <div className="relative w-1/2">
-                <h3 className="font-serif text-2xl text-white font-light tracking-wide uppercase mb-1">
+
+              {/* Founder Content */}
+              <div className="relative w-full lg:w-1/2">
+                <h3 className="font-serif text-xl sm:text-2xl md:text-3xl text-white font-light tracking-wide uppercase mb-2">
                   {founder.name}
                 </h3>
-                <span className="font-mono text-xs uppercase tracking-widest text-[#D4C5B9] block mb-4">
+
+                <span className="font-mono text-[9px] sm:text-[10px] md:text-xs uppercase tracking-[0.2em] sm:tracking-widest text-[#D4C5B9] block mb-4">
                   {founder.role}
                 </span>
-                <p className="text-xs sm:text-sm text-white/60 font-light leading-relaxed tracking-wide">
+
+                <p className="text-[11px] sm:text-xs md:text-sm text-white/60 font-light leading-relaxed tracking-wide max-w-xl">
                   {founder.description}
                 </p>
               </div>

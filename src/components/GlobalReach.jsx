@@ -256,9 +256,9 @@ export default function GlobalReach({ onInquiryClick }) {
           </h1>
 
           <p className="hero-description text-white/60 text-base sm:text-lg md:text-xl font-light leading-relaxed max-w-2xl">
-            KAYTEX-EXPORTERS partners with clothing brands, retailers, and sourcing
-            companies worldwide, delivering apparel solutions built around
-            quality, consistency, and dependable manufacturing.
+            KAY TEX-EXPORTERS partners with clothing brands, retailers, and
+            sourcing companies worldwide, delivering apparel solutions built
+            around quality, consistency, and dependable manufacturing.
           </p>
         </div>
       </section>
