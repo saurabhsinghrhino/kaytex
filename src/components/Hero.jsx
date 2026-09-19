@@ -57,7 +57,7 @@ export const Hero = () => {
         <img
           ref={bgRef}
           src="https://images.unsplash.com/photo-1567401893414-76b7b1e5a7a5?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-          alt="KAYTEX-EXPORTERS Premium Fashion Editorial"
+          alt="kaytex-EXPORTERS Premium Fashion Editorial"
           className="h-full w-full object-cover object-center opacity-0"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black via-black/30 to-black/50" />

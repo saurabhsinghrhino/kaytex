@@ -39,7 +39,7 @@ export const ClothingManufacturing = () => {
   const categoryImgRef = useRef(null);
   const categoryTextRef = useRef(null);
 
-  // Kaytex Ecosystem Refs
+  // kaytex Ecosystem Refs
   const roleSectionRef = useRef(null);
   const roleCardsRef = useRef([]);
 
@@ -153,7 +153,7 @@ export const ClothingManufacturing = () => {
       }
 
       // ----------------------------------------------------
-      // 4. KAYTEX ECOSYSTEM GRID STAGGER
+      // 4. kaytex ECOSYSTEM GRID STAGGER
       // ----------------------------------------------------
       if (roleSectionRef.current) {
         gsap.fromTo(
@@ -219,7 +219,7 @@ export const ClothingManufacturing = () => {
           <img
             ref={heroBgRef}
             src={heroBg}
-            alt="KAYTEX-EXPORTERS Premium Apparel Manufacturing Facility"
+            alt="kaytex-EXPORTERS Premium Apparel Manufacturing Facility"
             className="w-full h-full object-cover object-center opacity-0"
           />
           <div className="absolute inset-0 bg-black/60 backdrop-blur-[2px]" />
@@ -243,9 +243,9 @@ export const ClothingManufacturing = () => {
             ref={heroDescRef}
             className="text-xs md:text-sm font-light text-white/70 tracking-wide max-w-2xl mx-auto mb-10 leading-relaxed opacity-0"
           >
-            From product development to production, KAYTEX-EXPORTERS helps apparel brands
-            turn thoughtful designs into well-developed garments through a
-            connected manufacturing approach.
+            From product development to production, kaytex-EXPORTERS helps
+            apparel brands turn thoughtful designs into well-developed garments
+            through a connected manufacturing approach.
           </p>
           <div ref={heroBtnRef} className="opacity-0">
             <Link
@@ -277,16 +277,16 @@ export const ClothingManufacturing = () => {
             <div className="w-12 h-[1px] bg-[#d4c5b9] mb-8 editorial-anim opacity-0" />
             <p className="text-sm font-light text-white/70 leading-relaxed tracking-wide editorial-anim opacity-0">
               Manufacturing works best when design intent and production
-              capability stay connected. KAYTEX-EXPORTERS approaches apparel production
-              with attention to construction, material choices, finishing,
-              consistency, and the requirements of brands developing collections
-              for wider markets.
+              capability stay connected. kaytex-EXPORTERS approaches apparel
+              production with attention to construction, material choices,
+              finishing, consistency, and the requirements of brands developing
+              collections for wider markets.
             </p>
           </div>
         </div>
       </section>
 
-      {/* 3. HOW KAYTEX-EXPORTERS WORKS WITH MILLS (Asymmetric text-only) */}
+      {/* 3. HOW kaytex-EXPORTERS WORKS WITH MILLS (Asymmetric text-only) */}
       <section
         ref={sourcingSectionRef}
         className="relative w-full bg-[#0a0a0a] px-6 md:px-12 py-24 md:py-36 border-t border-[#2a2a2a]/30"
@@ -299,16 +299,16 @@ export const ClothingManufacturing = () => {
           </div>
           <div className="md:col-span-8">
             <h2 className="font-serif text-2xl sm:text-3xl md:text-5xl font-light uppercase tracking-tight text-white mb-6 leading-tight editorial-anim opacity-0">
-              How KAYTEX-EXPORTERS Strategically Works With <br />
+              How kaytex-EXPORTERS Strategically Works With <br />
               Mills and Factories Across India
             </h2>
             <div className="w-12 h-[1px] bg-[#d4c5b9] mb-8 editorial-anim opacity-0" />
             <p className="text-sm font-light text-white/70 leading-relaxed tracking-wide mb-4 editorial-anim opacity-0">
               India's apparel ecosystem brings together diverse textile,
-              manufacturing, finishing, and production capabilities. KAYTEX-EXPORTERS
-              works across this ecosystem to connect product requirements with
-              suitable manufacturing capabilities based on the needs of each
-              collection.
+              manufacturing, finishing, and production capabilities. KAY TEX
+              -EXPORTERS works across this ecosystem to connect product
+              requirements with suitable manufacturing capabilities based on the
+              needs of each collection.
             </p>
             <p className="text-xs font-light text-white/50 leading-relaxed tracking-wide italic editorial-anim opacity-0">
               The objective is not simply to find production capacity, but to
@@ -343,8 +343,8 @@ export const ClothingManufacturing = () => {
               intention.
             </p>
             <p className="text-sm font-light text-white/70 leading-relaxed tracking-wide editorial-anim opacity-0">
-              KAYTEX-EXPORTERS's role is to help connect product requirements with the
-              capabilities that best support them.
+              kaytex-EXPORTERS's role is to help connect product requirements
+              with the capabilities that best support them.
             </p>
           </div>
         </div>
@@ -456,7 +456,7 @@ export const ClothingManufacturing = () => {
         </div>
       </section>
 
-      {/* 7. KAYTEX'S ROLE IN THIS ECOSYSTEM */}
+      {/* 7. kaytex'S ROLE IN THIS ECOSYSTEM */}
       <section
         ref={roleSectionRef}
         className="relative w-full bg-[#0a0a0a] px-6 md:px-12 py-24 md:py-36 border-t border-[#2a2a2a]/30"
@@ -468,14 +468,14 @@ export const ClothingManufacturing = () => {
               WORKFLOW INTEGRATION
             </p>
             <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl font-light uppercase tracking-tight text-white mb-6">
-              KAYTEX-EXPORTERS’s Role{" "}
+              kaytex-EXPORTERS’s Role{" "}
               <span className="italic text-[#d4c5b9]">in This Ecosystem</span>
             </h2>
             <p className="text-sm font-light text-white/70 tracking-wide leading-relaxed">
-              KAYTEX-EXPORTERS helps connect the different stages of apparel development
-              by bringing design intent, material decisions, production
-              requirements, and manufacturing capabilities into a more
-              coordinated workflow.
+              kaytex-EXPORTERS helps connect the different stages of apparel
+              development by bringing design intent, material decisions,
+              production requirements, and manufacturing capabilities into a
+              more coordinated workflow.
             </p>
           </div>
 
@@ -526,10 +526,10 @@ export const ClothingManufacturing = () => {
             </h2>
             <div className="w-12 h-[1px] bg-[#d4c5b9] mb-8 editorial-anim opacity-0" />
             <p className="text-sm font-light text-white/70 leading-relaxed tracking-wide mb-4 editorial-anim opacity-0">
-              From the first product brief to the final manufacturing stage,
-              KAYTEX-EXPORTERS brings the key parts of apparel development into a more
-              connected process&mdash;helping brands move from concept toward
-              production with greater clarity.
+              From the first product brief to the final manufacturing stage, KAY
+              TEX -EXPORTERS brings the key parts of apparel development into a
+              more connected process&mdash;helping brands move from concept
+              toward production with greater clarity.
             </p>
             <p className="text-xs font-light text-white/50 leading-relaxed tracking-wide italic editorial-anim opacity-0">
               One product vision. One connected journey.
@@ -543,7 +543,7 @@ export const ClothingManufacturing = () => {
         <div className="absolute inset-0 z-0 opacity-15">
           <img
             src={ctaBg}
-            alt="KAYTEX-EXPORTERS Premium garment manufacturing close-up"
+            alt="kaytex-EXPORTERS Premium garment manufacturing close-up"
             className="w-full h-full object-cover object-center scale-105"
             loading="lazy"
           />
@@ -558,8 +558,8 @@ export const ClothingManufacturing = () => {
             <span className="italic text-[#d4c5b9]">Into Production?</span>
           </h2>
           <p className="text-xs md:text-sm font-light text-white/50 tracking-wide max-w-md mx-auto mb-12 leading-relaxed">
-            Tell us what you're developing and let's explore how KAYTEX-EXPORTERS can
-            support your next apparel manufacturing project.
+            Tell us what you're developing and let's explore how KAY TEX
+            -EXPORTERS can support your next apparel manufacturing project.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6">
             <Link

@@ -339,7 +339,7 @@ export const FabricCustomisation = () => {
       }
 
       // ----------------------------------------------------
-      // 8. WHY CHOOSE KAYTEX CUSTOMIZATION
+      // 8. WHY CHOOSE kaytex CUSTOMIZATION
       // ----------------------------------------------------
       if (whySectionRef.current) {
         gsap.fromTo(
@@ -664,7 +664,7 @@ export const FabricCustomisation = () => {
           <img
             ref={heroBgRef} //
             src="https://images.unsplash.com/photo-1631127839872-91d2bd28e462?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            alt="KAYTEX-EXPORTERS Fabric Customization Studio"
+            alt="kaytex-EXPORTERS Fabric Customization Studio"
             className="w-full h-full object-cover object-center opacity-0"
           />
           <div className="absolute inset-0 bg-black/65 backdrop-blur-[2px]" />
@@ -1110,7 +1110,7 @@ export const FabricCustomisation = () => {
         </div>
       </section>
 
-      {/* 8. WHY CHOOSE KAYTEX */}
+      {/* 8. WHY CHOOSE kaytex */}
       <section
         ref={whySectionRef}
         className="relative w-full bg-[#0a0a0a] px-6 md:px-12 py-24 md:py-36 border-t border-[#2a2a2a]"
@@ -1122,7 +1122,7 @@ export const FabricCustomisation = () => {
               COLLABORATION
             </p>
             <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl font-light uppercase tracking-tight text-white mb-6">
-              Why Choose KAYTEX-EXPORTERS <br />
+              Why Choose kaytex-EXPORTERS <br />
               <span className="italic text-[#d4c5b9]">
                 for Fabric Customization?
               </span>

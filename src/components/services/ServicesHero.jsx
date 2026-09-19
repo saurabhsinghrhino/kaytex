@@ -122,7 +122,7 @@ export const ServicesHero = () => {
             ref={descRef}
             className="text-sm md:text-base font-light tracking-wide text-white/70 max-w-xl mb-6 leading-relaxed opacity-0"
           >
-            From the first concept to the finished garment, KAYTEX-EXPORTERS
+            From the first concept to the finished garment, KAY TEX-EXPORTERS
             helps clothing brands bring their ideas to life through thoughtful
             development, reliable sourcing, and quality-focused manufacturing.
           </p>
@@ -163,7 +163,7 @@ export const ServicesHero = () => {
             <img
               ref={imageRef}
               src="/service-img.jpeg"
-              alt="KAYTEX-EXPORTERS Premium Garment Assembly and Apparels"
+              alt="kaytex-EXPORTERS Premium Garment Assembly and Apparels"
               className="w-full h-full object-cover object-center"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-black/30 pointer-events-none" />

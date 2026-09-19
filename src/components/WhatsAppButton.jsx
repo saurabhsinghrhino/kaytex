@@ -2,10 +2,10 @@ import React, { useRef } from "react";
 import gsap from "gsap";
 import { useGsap } from "../hooks/useGsap";
 
-// Placeholders for configuration - Replace with actual KAYTEX business WhatsApp number
+// Placeholders for configuration - Replace with actual kaytex business WhatsApp number
 const WHATSAPP_NUMBER = "+918826993211"; // Standard international format (without '+' or leading zeros)
 const DEFAULT_MESSAGE =
-  "Hello KAYTEX-EXPORTERS, I would like to know more about your apparel manufacturing and export services.";
+  "Hello kaytex-EXPORTERS, I would like to know more about your apparel manufacturing and export services.";
 
 export const WhatsAppButton = () => {
   const buttonRef = useRef(null);
@@ -38,7 +38,7 @@ export const WhatsAppButton = () => {
     >
       {/* Desktop Hover Tooltip */}
       <span className="hidden sm:inline-block px-3 py-1.5 bg-[#0A0A0A] text-[#F5F5F5] text-[10px] font-mono tracking-widest uppercase border border-[#2A2A2A] rounded opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300 ease-out pointer-events-none shadow-md">
-        Chat with KAYTEX-EXPORTERS
+        Chat with kaytex-EXPORTERS
       </span>
 
       {/* Floating Action Button */}
@@ -46,7 +46,7 @@ export const WhatsAppButton = () => {
         href={whatsappUrl}
         target="_blank"
         rel="noopener noreferrer"
-        aria-label="Chat with KAYTEX-EXPORTERS on WhatsApp"
+        aria-label="Chat with kaytex-EXPORTERS on WhatsApp"
         className="relative flex items-center justify-center w-12 h-12 sm:w-[52px] sm:h-[52px] rounded-full bg-[#D4C5B9] text-[#0A0A0A] border border-[#2A2A2A] shadow-md transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-105 hover:bg-[#c4b3a5] focus:outline-none focus:ring-2 focus:ring-[#D4C5B9]/50"
       >
         {/* SVG WhatsApp Icon */}

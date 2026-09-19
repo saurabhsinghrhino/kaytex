@@ -69,10 +69,11 @@ export const WhyKaytex = () => {
           {/* Left Column: Heading and Large Value List (7 cols) */}
           <div className="lg:col-span-7 flex flex-col justify-center">
             <p className="fade-in-item text-[10px] md:text-xs font-mono uppercase tracking-[0.3em] text-[#D4C5B9] mb-4">
-              THE KAYTEX-EXPORTERS STANDARD
+              THE kaytex-EXPORTERS STANDARD
             </p>
             <h2 className="fade-in-item font-serif text-4xl sm:text-5xl font-light uppercase tracking-tight text-white mb-16 leading-none">
-              WHY CHOOSE <span className="italic text-[#D4C5B9]">KAYTEX-EXPORTERS.</span>
+              WHY CHOOSE{" "}
+              <span className="italic text-[#D4C5B9]">kaytex-EXPORTERS.</span>
             </h2>
 
             {/* Typography List */}

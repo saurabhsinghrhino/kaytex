@@ -451,8 +451,8 @@ export const Loungewear = () => {
 
   const faqs = [
     {
-      q: "What types of loungewear does KAYTEX-EXPORTERS manufacture?",
-      a: "KAYTEX-EXPORTERS can support a range of loungewear categories including joggers and pajama sets, sweatshirts and hoodies, tops and tees, sleepwear, kids' loungewear, and maternity or nursing sets, depending on the project requirements.",
+      q: "What types of loungewear does kaytex-EXPORTERS manufacture?",
+      a: "kaytex-EXPORTERS can support a range of loungewear categories including joggers and pajama sets, sweatshirts and hoodies, tops and tees, sleepwear, kids' loungewear, and maternity or nursing sets, depending on the project requirements.",
     },
     {
       q: "Can I customize my loungewear designs?",
@@ -463,16 +463,16 @@ export const Loungewear = () => {
       a: "Depending on the product requirements, fabric options may include single jersey, interlock, waffle knit, French terry, polar fleece, rib knit, woven fabrics, and different fiber compositions and blends.",
     },
     {
-      q: "Can KAYTEX-EXPORTERS help with fabric sourcing?",
-      a: "Yes. KAYTEX-EXPORTERS can support the sourcing and selection of suitable fibers, fabric structures, and finishing options based on the requirements of your collection.",
+      q: "Can kaytex-EXPORTERS help with fabric sourcing?",
+      a: "Yes. kaytex-EXPORTERS can support the sourcing and selection of suitable fibers, fabric structures, and finishing options based on the requirements of your collection.",
     },
     {
       q: "Do you offer private label loungewear manufacturing?",
-      a: "KAYTEX-EXPORTERS can support private label development through approved branding elements such as labels, trims, and other brand-specific details depending on project requirements.",
+      a: "kaytex-EXPORTERS can support private label development through approved branding elements such as labels, trims, and other brand-specific details depending on project requirements.",
     },
     {
-      q: "Can KAYTEX-EXPORTERS manufacture for international brands?",
-      a: "KAYTEX-EXPORTERS works with apparel brands seeking manufacturing support from India for loungewear and related product categories, depending on the project's requirements.",
+      q: "Can kaytex-EXPORTERS manufacture for international brands?",
+      a: "kaytex-EXPORTERS works with apparel brands seeking manufacturing support from India for loungewear and related product categories, depending on the project's requirements.",
     },
     {
       q: "Can I develop samples before bulk production?",
@@ -480,7 +480,7 @@ export const Loungewear = () => {
     },
     {
       q: "How can I start a loungewear manufacturing project?",
-      a: "Start by sharing your designs, tech packs, references, product requirements, or fabric direction through the KAYTEX-EXPORTERS inquiry form. The team can then understand your requirements and discuss the next steps.",
+      a: "Start by sharing your designs, tech packs, references, product requirements, or fabric direction through the kaytex-EXPORTERS inquiry form. The team can then understand your requirements and discuss the next steps.",
     },
   ];
 
@@ -528,8 +528,9 @@ export const Loungewear = () => {
             className="text-xs md:text-sm font-light text-white/70 tracking-wide max-w-3xl mx-auto mb-10 leading-relaxed opacity-0"
           >
             From fabric selection and product development to sampling and bulk
-            production, KAYTEX-EXPORTERS helps global brands develop premium loungewear
-            designed around comfort, quality, and their unique brand direction.
+            production, kaytex-EXPORTERS helps global brands develop premium
+            loungewear designed around comfort, quality, and their unique brand
+            direction.
           </p>
           <div ref={heroBtnRef} className="opacity-0">
             <Link
@@ -552,8 +553,8 @@ export const Loungewear = () => {
             ABOUT OUR LOUNGEWEAR CAPABILITY
           </p>
           <h2 className="font-serif text-xl sm:text-2xl md:text-3xl font-light uppercase tracking-wide text-white leading-relaxed mb-6 statement-anim opacity-0">
-            KAYTEX-EXPORTERS is a full-service loungewear manufacturer and export partner
-            for global clothing brands.
+            kaytex-EXPORTERS is a full-service loungewear manufacturer and
+            export partner for global clothing brands.
           </h2>
           <p className="text-xs md:text-sm font-light text-white/60 leading-relaxed max-w-2xl mx-auto mb-6 statement-anim opacity-0">
             We specialize in producing high-quality, custom-designed loungewear
@@ -567,7 +568,7 @@ export const Loungewear = () => {
         </div>
       </section>
 
-      {/* 3. KAYTEX COUNTER */}
+      {/* 3. kaytex COUNTER */}
       <section
         ref={counterSectionRef}
         className="relative w-full bg-[#0a0a0a] px-6 md:px-12 py-16 border-b border-[#2a2a2a]/30 grid grid-cols-2 lg:grid-cols-4 gap-8 text-center max-w-7xl mx-auto"
@@ -624,9 +625,9 @@ export const Loungewear = () => {
               </span>
             </h2>
             <p className="text-sm font-light text-white/70 tracking-wide leading-relaxed">
-              From the first product concept to finished garments, KAYTEX-EXPORTERS
-              supports the key stages required to develop and manufacture
-              loungewear for growing brands.
+              From the first product concept to finished garments, KAY TEX
+              -EXPORTERS supports the key stages required to develop and
+              manufacture loungewear for growing brands.
             </p>
           </div>
 
@@ -680,7 +681,7 @@ export const Loungewear = () => {
             </h2>
             <p className="text-sm font-light text-white/70 tracking-wide leading-relaxed">
               The right fabric influences how your loungewear feels, fits,
-              moves, and performs. KAYTEX-EXPORTERS helps brands explore fiber
+              moves, and performs. kaytex-EXPORTERS helps brands explore fiber
               compositions, fabric structures, weights, and finishes suited to
               their product direction.
             </p>
@@ -764,8 +765,8 @@ export const Loungewear = () => {
               <span className="italic text-[#d4c5b9]">of Loungewear</span>
             </h2>
             <p className="text-sm font-light text-white/70 tracking-wide leading-relaxed">
-              Explore the loungewear categories KAYTEX-EXPORTERS can support across
-              different comfort, lifestyle, and collection requirements.
+              Explore the loungewear categories kaytex-EXPORTERS can support
+              across different comfort, lifestyle, and collection requirements.
             </p>
           </div>
 
@@ -916,7 +917,7 @@ export const Loungewear = () => {
               Frequently Asked Questions
             </h2>
             <p className="text-sm font-light text-white/70 tracking-wide leading-relaxed max-w-2xl mx-auto">
-              Answers to common questions about KAYTEX-EXPORTERS's loungewear
+              Answers to common questions about kaytex-EXPORTERS's loungewear
               manufacturing capabilities.
             </p>
           </div>
@@ -1001,8 +1002,8 @@ export const Loungewear = () => {
           </h2>
           <p className="text-xs md:text-sm font-light text-white/50 tracking-wide max-w-md mx-auto mb-12 leading-relaxed">
             Bring your loungewear concepts, fabrics, and product requirements to
-            KAYTEX-EXPORTERS and explore a manufacturing partnership built around quality,
-            customization, and scalable production.
+            kaytex-EXPORTERS and explore a manufacturing partnership built
+            around quality, customization, and scalable production.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6">
             <Link

@@ -183,7 +183,7 @@ export const ClothingDesign = () => {
       }
 
       // ----------------------------------------------------
-      // 5. WHY CHOOSE KAYTEX DESIGN ANIMATION
+      // 5. WHY CHOOSE kaytex DESIGN ANIMATION
       // ----------------------------------------------------
       if (whyChooseSectionRef.current) {
         gsap.fromTo(
@@ -428,7 +428,7 @@ export const ClothingDesign = () => {
   const testimonials = [
     {
       quote:
-        "KAYTEX-EXPORTERS helped us turn an early concept into a much clearer product direction. Their attention to the details made the development process far easier.",
+        "kaytex-EXPORTERS helped us turn an early concept into a much clearer product direction. Their attention to the details made the development process far easier.",
       name: "Alex Morgan",
       role: "Founder, Northline Studio",
     },
@@ -461,7 +461,7 @@ export const ClothingDesign = () => {
           <img
             ref={heroBgRef}
             src={heroBg}
-            alt="KAYTEX-EXPORTERS Premium Apparel Development Studio"
+            alt="kaytex-EXPORTERS Premium Apparel Development Studio"
             className="w-full h-full object-cover object-center opacity-0"
           />
           <div className="absolute inset-0 bg-black/60 backdrop-blur-[2px]" />
@@ -487,9 +487,9 @@ export const ClothingDesign = () => {
             ref={heroDescRef}
             className="text-xs md:text-sm font-light text-white/70 tracking-wide max-w-2xl mx-auto mb-10 leading-relaxed opacity-0"
           >
-            From your first idea to a refined, production-ready garment, KAYTEX-EXPORTERS
-            helps turn creative concepts into apparel that reflects your brand,
-            your audience, and your vision.
+            From your first idea to a refined, production-ready garment, KAY TEX
+            -EXPORTERS helps turn creative concepts into apparel that reflects
+            your brand, your audience, and your vision.
           </p>
           <div ref={heroBtnRef} className="opacity-0">
             <Link
@@ -544,10 +544,10 @@ export const ClothingDesign = () => {
               decision contributes to how a product looks, feels, and performs.
             </p>
             <p className="text-xs md:text-sm font-light text-white/70 leading-relaxed tracking-wide intro-anim opacity-0">
-              At KAYTEX-EXPORTERS, we approach clothing design with both creativity and
-              practicality &mdash; helping brands develop apparel that stays
-              true to their vision while being clear and ready for the next
-              stages of development.
+              At kaytex-EXPORTERS, we approach clothing design with both
+              creativity and practicality &mdash; helping brands develop apparel
+              that stays true to their vision while being clear and ready for
+              the next stages of development.
             </p>
           </div>
         </div>
@@ -645,9 +645,9 @@ export const ClothingDesign = () => {
             manage.
           </p>
           <p className="text-xs md:text-sm font-light text-white/60 tracking-wide max-w-xl mx-auto leading-relaxed">
-            At KAYTEX-EXPORTERS, our design documentation is created with production in
-            mind &mdash; helping reduce unnecessary revisions, improve
-            communication, and give every garment a clearer path toward
+            At kaytex-EXPORTERS, our design documentation is created with
+            production in mind &mdash; helping reduce unnecessary revisions,
+            improve communication, and give every garment a clearer path toward
             development.
           </p>
         </div>
@@ -666,7 +666,9 @@ export const ClothingDesign = () => {
             </p>
             <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl font-light uppercase tracking-tight text-white mb-6">
               Why Choose{" "}
-              <span className="italic text-[#d4c5b9]">KAYTEX-EXPORTERS Design?</span>
+              <span className="italic text-[#d4c5b9]">
+                kaytex-EXPORTERS Design?
+              </span>
             </h2>
             <p className="text-sm font-light text-white/70 tracking-wide leading-relaxed">
               Good apparel design requires more than creativity. It requires

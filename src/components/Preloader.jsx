@@ -107,7 +107,7 @@ export const Preloader = ({ onComplete }) => {
       ref={containerRef}
       id="preloader"
       role="status"
-      aria-label="Loading KAYTEX-EXPORTERS"
+      aria-label="Loading kaytex-EXPORTERS"
       aria-live="polite"
       className="fixed inset-0 z-50 flex min-h-screen min-h-[100dvh] w-full flex-col items-center justify-center bg-[#0a0a0a] text-[#f5f5f5] select-none"
       style={{ clipPath: "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)" }}
@@ -116,14 +116,14 @@ export const Preloader = ({ onComplete }) => {
         ref={contentWrapperRef}
         className="flex flex-col items-center justify-center text-center px-6"
       >
-        {/* KAYTEX-EXPORTERS Official Logo */}
+        {/* kaytex-EXPORTERS Official Logo */}
         <div
           ref={logoRef}
           className="opacity-0 flex items-center justify-center mb-5 sm:mb-6"
         >
           <img
             src={logo}
-            alt="KAYTEX-EXPORTERS"
+            alt="kaytex-EXPORTERS"
             loading="eager"
             className="w-36 sm:w-44 md:w-56 lg:w-64 max-w-[80vw] h-auto object-contain brightness-0 invert"
           />

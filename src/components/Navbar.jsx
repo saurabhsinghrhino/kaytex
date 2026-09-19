@@ -168,11 +168,11 @@ export const Navbar = () => {
             setIsServicesOpen(false);
           }}
           className="flex items-center hover:opacity-85 transition-opacity cursor-pointer focus:outline-none"
-          aria-label="KAYTEX-EXPORTERS Home"
+          aria-label="kaytex-EXPORTERS Home"
         >
           <img
             src={logo}
-            alt="KAYTEX-EXPORTERS"
+            alt="kaytex-EXPORTERS"
             className="h-10 sm:h-12 md:h-14 lg:h-[80px] w-auto object-contain brightness-0 invert"
           />
         </Link>

@@ -83,7 +83,7 @@ export const Categories = () => {
           </div>
           <p className="max-w-xs text-xs uppercase tracking-widest text-black/60 font-light leading-relaxed">
             Powered by a robust supply network and modern in-house printing and
-            manufacturing machinery, Kaytex Exporters delivers high-value,
+            manufacturing machinery, kay tex Exporters delivers high-value,
             cost-effective garment manufacturing—on time, every time as per the
             tech packs which includes ladies western wear.
           </p>

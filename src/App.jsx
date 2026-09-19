@@ -31,25 +31,25 @@ import Loungewear from "./pages/services/Loungewear";
 
 // SEO title mapping based on route pathnames
 const routeTitles = {
-  "/": "KAYTEX-EXPORTERS | Premium Apparel",
-  "/about": "ABOUT KAYTEX-EXPORTERS | Our Story",
-  "/services": "KAYTEX-EXPORTERS | Services",
-  "/faq": "KAYTEX-EXPORTERS | Frequently Asked Questions",
-  "/inquire": "CONTACT KAYTEX-EXPORTERS | Apparel Manufacturing & Development",
-  "/contact": "CONTACT KAYTEX-EXPORTERS | Apparel Manufacturing & Development",
-  "/services/clothing-design": "KAYTEX-EXPORTERS | Clothing Design Services",
+  "/": "kaytex-EXPORTERS | Premium Apparel",
+  "/about": "ABOUT kaytex-EXPORTERS | Our Story",
+  "/services": "kaytex-EXPORTERS | Services",
+  "/faq": "kaytex-EXPORTERS | Frequently Asked Questions",
+  "/inquire": "CONTACT kaytex-EXPORTERS | Apparel Manufacturing & Development",
+  "/contact": "CONTACT kaytex-EXPORTERS | Apparel Manufacturing & Development",
+  "/services/clothing-design": "kaytex-EXPORTERS | Clothing Design Services",
   "/services/clothing-design/tech-pack-development":
-    "KAYTEX-EXPORTERS | Tech Pack Development",
+    "kaytex-EXPORTERS | Tech Pack Development",
   "/services/clothing-design/3d-garments":
-    "KAYTEX-EXPORTERS | 3D Garment Visualization",
-  "/services/fabric-sourcing": "KAYTEX-EXPORTERS | Fabric Sourcing",
-  "/services/fabric-customisation": "KAYTEX-EXPORTERS | Fabric Customisation",
+    "kaytex-EXPORTERS | 3D Garment Visualization",
+  "/services/fabric-sourcing": "kaytex-EXPORTERS | Fabric Sourcing",
+  "/services/fabric-customisation": "kaytex-EXPORTERS | Fabric Customisation",
   "/services/clothing-manufacturing":
-    "KAYTEX-EXPORTERS | Clothing Manufacturing",
+    "kaytex-EXPORTERS | Clothing Manufacturing",
   "/services/clothing-manufacturing/womens-clothing":
-    "KAYTEX-EXPORTERS | Women's Clothing Manufacturing",
+    "kaytex-EXPORTERS | Women's Clothing Manufacturing",
   "/services/clothing-manufacturing/loungewear":
-    "KAYTEX-EXPORTERS | Loungewear Manufacturing",
+    "kaytex-EXPORTERS | Loungewear Manufacturing",
 };
 
 function App() {
@@ -78,7 +78,7 @@ function App() {
   // Handle SEO Document Title updates dynamically
   useEffect(() => {
     document.title =
-      routeTitles[location.pathname] || "KAYTEX-EXPORTERS | Premium Apparel";
+      routeTitles[location.pathname] || "kaytex-EXPORTERS | Premium Apparel";
   }, [location.pathname]);
 
   return (

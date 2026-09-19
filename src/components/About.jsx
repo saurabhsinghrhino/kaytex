@@ -81,7 +81,7 @@ export const About = () => {
               <img
                 ref={mainImageRef}
                 src="https://images.unsplash.com/photo-1624129126429-0775cd4ea284?q=80&w=1286&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                alt="KAYTEX-EXPORTERS Editorial Wool Coat"
+                alt="kaytex-EXPORTERS Editorial Wool Coat"
                 className="w-full h-[120%] object-cover absolute top-[-10%] left-0"
               />
             </div>
@@ -112,9 +112,9 @@ export const About = () => {
             </h2>
 
             <p className="text-base font-light tracking-wide text-black/75 mb-6 leading-relaxed max-w-xl">
-              KAYTEX-EXPORTERS IS A MANUFACTURING AND EXPORTS HOUSE FOR CLOTHING
-              BRANDS, RETAILERS, AND SOURCING COMPANIES WORLDWIDE SEEKING
-              LONG-TERM PARTNERSHIPS.
+              KAY TEX-EXPORTERS IS A MANUFACTURING AND EXPORTS HOUSE FOR
+              CLOTHING BRANDS, RETAILERS, AND SOURCING COMPANIES WORLDWIDE
+              SEEKING LONG-TERM PARTNERSHIPS.
             </p>
 
             {/* Metadata Grid */}

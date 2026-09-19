@@ -1,6 +1,6 @@
 import React from "react";
 import ServicesHero from "../components/services/ServicesHero";
-import WhyChooseKaytex from "../components/services/WhyChooseKaytex";
+import { WhyChooseKAYTEX } from "../components/services/WhyChooseKaytex.jsx";
 import IntegratedServices from "../components/services/IntegratedServices";
 import ProcessSection from "../components/services/ProcessSection";
 import ResponsibleProduction from "../components/services/ResponsibleProduction";
@@ -14,8 +14,8 @@ export const Services = () => {
       {/* 1. Hero: End-to-End Apparel Solutions */}
       <ServicesHero />
 
-      {/* 2. Why Choose Kaytex */}
-      <WhyChooseKaytex />
+      {/* 2. Why Choose kaytex */}
+      <WhyChooseKAYTEX />
 
       {/* 3. Our Integrated Services (Design, Sourcing, Manufacturing) */}
       <IntegratedServices />

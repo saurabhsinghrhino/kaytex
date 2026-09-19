@@ -70,7 +70,7 @@ export const InquiryForm = () => {
     const { name, phone, email, query } = validation.data;
 
     const message = [
-      "Hello KAYTEX-EXPORTERS,",
+      "Hello kaytex-EXPORTERS,",
       "",
       "I would like to discuss an apparel manufacturing/export inquiry.",
       "",
@@ -89,7 +89,7 @@ export const InquiryForm = () => {
       "",
       "━━━━━━━━━━━━━━━━━━",
       "",
-      "I look forward to discussing my requirements with KAYTEX-EXPORTERS.",
+      "I look forward to discussing my requirements with kaytex-EXPORTERS.",
       "",
       "Thank you.",
     ].join("\n");

@@ -36,7 +36,7 @@ const MAPS_URL = "https://maps.app.goo.gl/QqrWxKonAHCsWtsAA";
 const INSTAGRAM_URL =
   "https://www.instagram.com/kaytex.official?utm_source=qr&igsh=MTkweXp0dmgzN3ZieA==";
 const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(
-  "Hello KAYTEX-EXPORTERS, I would like to discuss an apparel manufacturing inquiry.",
+  "Hello kaytex-EXPORTERS, I would like to discuss an apparel manufacturing inquiry.",
 )}`;
 
 // Dropdown options
@@ -362,7 +362,7 @@ export const Contact = () => {
     } = validation.data;
 
     const message = [
-      "Hello KAYTEX-EXPORTERS,",
+      "Hello kaytex-EXPORTERS,",
       "",
       "I would like to discuss an apparel manufacturing/export inquiry.",
       "",
@@ -399,7 +399,7 @@ export const Contact = () => {
       "",
       "━━━━━━━━━━━━━━━━━━",
       "",
-      "I look forward to discussing my requirements with KAYTEX-EXPORTERS.",
+      "I look forward to discussing my requirements with kaytex-EXPORTERS.",
       "",
       "Thank you.",
     ].join("\n");
@@ -459,7 +459,7 @@ export const Contact = () => {
     {
       num: "04",
       title: "GLOBAL PARTNERSHIPS",
-      desc: "Working from an international market? Share your project details and explore a potential manufacturing partnership with KAYTEX-EXPORTERS.",
+      desc: "Working from an international market? Share your project details and explore a potential manufacturing partnership with kaytex-EXPORTERS.",
     },
   ];
 
@@ -529,7 +529,7 @@ export const Contact = () => {
       a: "Share as much relevant information as possible, such as your product category, designs or references, fabric preferences, estimated quantities, target market, and any specific manufacturing requirements.",
     },
     {
-      q: "Can I contact KAYTEX-EXPORTERS before I have a finalized tech pack?",
+      q: "Can I contact KAY TEX-EXPORTERS before I have a finalized tech pack?",
       a: "Yes. You can share your initial concept, sketches, references, or product requirements so the team can understand what stage your project is currently at.",
     },
     {
@@ -542,7 +542,7 @@ export const Contact = () => {
     },
     {
       q: "Do you work with international clothing brands?",
-      a: "KAYTEX-EXPORTERS supports apparel brands seeking manufacturing and product development partnerships from India, depending on project requirements.",
+      a: "KAY TEX-EXPORTERS supports apparel brands seeking manufacturing and product development partnerships from India, depending on project requirements.",
     },
     {
       q: "How do I start a manufacturing project?",
@@ -584,8 +584,8 @@ export const Contact = () => {
                 className="text-sm sm:text-base md:text-lg text-white/70 font-light tracking-wide max-w-2xl leading-relaxed mb-10 opacity-0"
               >
                 Have a product idea, tech pack, fabric requirement, or
-                manufacturing project in mind? Share your requirements with
-                KAYTEX-EXPORTERS and let's explore how we can bring your apparel
+                manufacturing project in mind? Share your requirements with KAY
+                TEX -EXPORTERS and let's explore how we can bring your apparel
                 vision to life.
               </p>
               <div
@@ -609,7 +609,7 @@ export const Contact = () => {
                 <img
                   ref={heroImgRef}
                   src="https://zeddworkstudio.com/wp-content/uploads/2025/10/organic-fabric-sourcing-zeddwork-studio.jpg"
-                  alt="KAYTEX-EXPORTERS Apparel Development and Material Craftsmanship"
+                  alt="kaytex-EXPORTERS Apparel Development and Material Craftsmanship"
                   className="w-full h-full object-cover object-center opacity-0"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-black/20 pointer-events-none" />
@@ -643,7 +643,7 @@ export const Contact = () => {
             </p>
             <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl font-light uppercase tracking-tight text-white mb-6">
               Connect With{" "}
-              <span className="italic text-[#d4c5b9]">KAYTEX-EXPORTERS</span>
+              <span className="italic text-[#d4c5b9]">KAY TEX-EXPORTERS</span>
             </h2>
             <p className="text-sm sm:text-base font-light text-white/70 tracking-wide leading-relaxed">
               Whether you're developing a new collection or looking for a
@@ -757,7 +757,7 @@ export const Contact = () => {
       </section>
 
       {/* =========================================================================
-          5. WHY CONTACT KAYTEX-EXPORTERS?
+          5. WHY CONTACT kaytex-EXPORTERS?
           ========================================================================= */}
       <section
         ref={whySectionRef}
@@ -777,7 +777,7 @@ export const Contact = () => {
             <div className="w-12 h-[1px] bg-[#d4c5b9] mx-auto mb-8" />
             <p className="text-sm sm:text-base font-light text-white/70 leading-relaxed tracking-wide max-w-2xl mx-auto">
               From product development and fabric sourcing to sampling and
-              manufacturing, KAYTEX-EXPORTERS brings multiple stages of apparel
+              manufacturing, KAY TEX-EXPORTERS brings multiple stages of apparel
               development together so brands can approach production with
               greater clarity.
             </p>

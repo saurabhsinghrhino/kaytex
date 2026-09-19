@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
 import logo from "../assets/kaytex-logo.png"; // Adjust path to match your asset location
 
-const INSTAGRAM_URL = "YOUR_KAYTEX_INSTAGRAM_URL";
+const INSTAGRAM_URL = "YOUR_kaytex_INSTAGRAM_URL";
 const WHATSAPP_NUMBER = "+918826993211";
 const DEFAULT_MESSAGE =
-  "Hello KAYTEX-EXPORTERS, I would like to know more about your apparel manufacturing and export services.";
+  "Hello kaytex-EXPORTERS, I would like to know more about your apparel manufacturing and export services.";
 
 export const Footer = () => {
   const encodedMessage = encodeURIComponent(DEFAULT_MESSAGE);
@@ -16,10 +16,10 @@ export const Footer = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-12 gap-10 lg:gap-8 items-start">
           {/* Brand Info & Tagline */}
           <div className="sm:col-span-2 md:col-span-3 lg:col-span-3 flex flex-col">
-            <Link to="/" aria-label="KAYTEX-EXPORTERS Home">
+            <Link to="/" aria-label="kaytex-EXPORTERS Home">
               <img
                 src={logo}
-                alt="KAYTEX-EXPORTERS"
+                alt="kaytex-EXPORTERS"
                 className="h-20 w-20 sm:h-20 md:h-24 w-auto object-contain brightness-0 mb-6"
               />
             </Link>
@@ -197,7 +197,7 @@ export const Footer = () => {
         {/* Bottom Bar */}
         <div className="mt-20 pt-8 border-t border-black/10 flex flex-col sm:flex-row justify-between items-center gap-4 text-[15px] tracking-wider uppercase font-mono text-black font-bold">
           <div>
-            © {new Date().getFullYear()} KAYTEX-EXPORTERS. ALL RIGHTS RESERVED.
+            © {new Date().getFullYear()} KAY TEX-EXPORTERS. ALL RIGHTS RESERVED.
           </div>
 
           <Link
