@@ -11,92 +11,96 @@ export const Preloader = ({ onComplete }) => {
   const loaderBarRef = useRef(null);
   const progressRef = useRef(null);
 
-  useGsap(() => {
-    const isReducedMotion = window.matchMedia(
-      "(prefers-reduced-motion: reduce)"
-    ).matches;
+  useGsap(
+    () => {
+      const isReducedMotion = window.matchMedia(
+        "(prefers-reduced-motion: reduce)",
+      ).matches;
 
-    if (isReducedMotion) {
-      if (onComplete) onComplete();
-      if (containerRef.current) {
-        containerRef.current.style.display = "none";
-      }
-      return;
-    }
-
-    const tl = gsap.timeline({
-      onComplete: () => {
+      if (isReducedMotion) {
         if (onComplete) onComplete();
-      },
-    });
-
-    // 1. Animate Logo Reveal
-    tl.fromTo(
-      logoRef.current,
-      {
-        opacity: 0,
-        scale: 0.94,
-        y: 10,
-      },
-      {
-        opacity: 1,
-        scale: 1,
-        y: 0,
-        duration: 0.9,
-        ease: "power3.out",
+        if (containerRef.current) {
+          containerRef.current.style.display = "none";
+        }
+        return;
       }
-    )
-      // 2. Animate Brand Name Reveal (starts slightly after logo)
-      .fromTo(
-        brandNameRef.current,
+
+      const tl = gsap.timeline({
+        onComplete: () => {
+          if (onComplete) onComplete();
+        },
+      });
+
+      // 1. Animate Logo Reveal
+      tl.fromTo(
+        logoRef.current,
         {
           opacity: 0,
+          scale: 0.94,
           y: 10,
         },
         {
           opacity: 1,
+          scale: 1,
           y: 0,
-          duration: 0.8,
+          duration: 0.9,
           ease: "power3.out",
         },
-        "-=0.55"
       )
-      // 3. Animate Minimal Progress Line (0% -> 100%)
-      .fromTo(
-        progressRef.current,
-        {
-          scaleX: 0,
-        },
-        {
-          scaleX: 1,
-          duration: 1.1,
-          ease: "power2.inOut",
-        },
-        "-=0.5"
-      )
-      // 4. Smooth content fade out before curtain exit
-      .to([logoRef.current, brandNameRef.current, loaderBarRef.current], {
-        opacity: 0,
-        y: -10,
-        duration: 0.45,
-        stagger: 0.05,
-        ease: "power3.in",
-      })
-      // 5. Smooth curtain slide reveal
-      .to(
-        containerRef.current,
-        {
-          clipPath: "polygon(0% 0%, 100% 0%, 100% 0%, 0% 0%)",
-          duration: 0.8,
-          ease: "power4.inOut",
-        },
-        "-=0.15"
-      )
-      // 6. Completely hide container
-      .set(containerRef.current, {
-        display: "none",
-      });
-  }, [], containerRef);
+        // 2. Animate Brand Name Reveal (starts slightly after logo)
+        .fromTo(
+          brandNameRef.current,
+          {
+            opacity: 0,
+            y: 10,
+          },
+          {
+            opacity: 1,
+            y: 0,
+            duration: 0.8,
+            ease: "power3.out",
+          },
+          "-=0.55",
+        )
+        // 3. Animate Minimal Progress Line (0% -> 100%)
+        .fromTo(
+          progressRef.current,
+          {
+            scaleX: 0,
+          },
+          {
+            scaleX: 1,
+            duration: 1.1,
+            ease: "power2.inOut",
+          },
+          "-=0.5",
+        )
+        // 4. Smooth content fade out before curtain exit
+        .to([logoRef.current, brandNameRef.current, loaderBarRef.current], {
+          opacity: 0,
+          y: -10,
+          duration: 0.45,
+          stagger: 0.05,
+          ease: "power3.in",
+        })
+        // 5. Smooth curtain slide reveal
+        .to(
+          containerRef.current,
+          {
+            clipPath: "polygon(0% 0%, 100% 0%, 100% 0%, 0% 0%)",
+            duration: 0.8,
+            ease: "power4.inOut",
+          },
+          "-=0.15",
+        )
+        // 6. Completely hide container
+        .set(containerRef.current, {
+          display: "none",
+        });
+    },
+    [],
+    containerRef,
+  );
 
   return (
     <div
@@ -130,7 +134,7 @@ export const Preloader = ({ onComplete }) => {
           ref={brandNameRef}
           className="opacity-0 text-xs sm:text-sm md:text-base font-light uppercase tracking-[0.3em] sm:tracking-[0.35em] md:tracking-[0.4em] text-[#f5f5f5]"
         >
-          KAYTEX-EXPORTERS
+          KAY TEX-EXPORTERS
         </span>
 
         {/* Minimal Progress Line */}
@@ -150,4 +154,3 @@ export const Preloader = ({ onComplete }) => {
 };
 
 export default Preloader;
-
