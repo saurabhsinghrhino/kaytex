@@ -93,7 +93,7 @@ const statsData = [
   { value: 45, suffix: "+", label: "Collections / Projects Supported" },
   { value: 120, suffix: "K+", label: "Apparel Products Developed" },
   { value: 30, suffix: "+", label: "Clients & Partners" },
-  { value: 8, suffix: "+", label: "Years of Industry Experience" },
+  { value: 30, suffix: "+", label: "Years of Industry Experience" },
 ];
 
 const pillarsData = [
