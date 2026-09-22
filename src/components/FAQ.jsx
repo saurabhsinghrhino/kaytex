@@ -8,15 +8,15 @@ import { useGsap } from "../hooks/useGsap";
 const faqData = [
   {
     id: "faq-1",
-    question: "What is KAY TEX-EXPORTERS?",
+    question: "What is KAY TEX EXPORTERS?",
     answer:
-      "KAY TEX-EXPORTERS is a specialized women’s garment exporter, delivering premium-quality apparel crafted for global fashion brands. We focus on reliable production, refined craftsmanship, and export-ready quality tailored to every brand’s unique requirements.",
+      "KAY TEX EXPORTERS is a specialized women’s garment exporter, delivering premium-quality apparel crafted for global fashion brands. We focus on reliable production, refined craftsmanship, and export-ready quality tailored to every brand’s unique requirements.",
   },
   {
     id: "faq-2",
     question: "What items do you manufacture?",
     answer:
-      "KAY TEX-EXPORTERS specializes in manufacturing and exporting premium women’s garments for fashion brands and retailers worldwide. From design-focused development to precise production, we deliver quality, consistency, and export-ready apparel tailored to every brand’s requirements.",
+      "KAY TEX EXPORTERS specializes in manufacturing and exporting premium women’s garments for fashion brands and retailers worldwide. From design-focused development to precise production, we deliver quality, consistency, and export-ready apparel tailored to every brand’s requirements.",
   },
   {
     id: "faq-3",

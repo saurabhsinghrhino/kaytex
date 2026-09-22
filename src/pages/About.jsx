@@ -127,7 +127,7 @@ const milestones = [
   {
     num: "01",
     title: "THE BEGINNING",
-    desc: "KAY TEX-EXPORTERS begins with a vision to create better apparel experiences.",
+    desc: "KAY TEX EXPORTERS begins with a vision to create better apparel experiences.",
   },
   {
     num: "02",
@@ -195,14 +195,14 @@ const AboutHero = () => {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
           <div className="lg:col-span-7 z-10">
             <span className="hero-text-anim text-[10px] sm:text-xs font-mono uppercase tracking-[0.3em] text-[#D4C5B9] block mb-4">
-              ABOUT KAY TEX-EXPORTERS
+              ABOUT KAY TEX EXPORTERS
             </span>
             <h1 className="hero-text-anim font-serif text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-light tracking-tight text-white uppercase leading-[1.05] mb-6">
               Where Quality <br className="hidden sm:inline" />
               Meets Modern Fashion.
             </h1>
             <p className="hero-text-anim text-sm sm:text-base text-white/60 font-light tracking-wide max-w-xl leading-relaxed mb-10">
-              KAY TEX-EXPORTERS is built around a simple idea — clothing should
+              KAY TEX EXPORTERS is built around a simple idea — clothing should
               feel as good as it looks. We bring together thoughtful design,
               quality materials, and careful craftsmanship to create apparel
               made for today's world.
@@ -274,7 +274,7 @@ const OurStory = () => {
               Built With a Passion for Better Clothing.
             </h2>
             <p className="story-anim text-sm sm:text-base text-white/70 font-light tracking-wide leading-relaxed mb-6">
-              KAY TEX-EXPORTERS was created with a passion for bringing together
+              KAY TEX EXPORTERS was created with a passion for bringing together
               timeless style, quality materials, and thoughtful craftsmanship.
               We believe great clothing isn't simply about following trends —
               it's about creating pieces that people genuinely enjoy wearing.
@@ -342,7 +342,7 @@ const WhatWeDo = () => {
               From Concept to Creation, We Make Apparel Happen.
             </h2>
             <p className="wwd-anim text-sm text-white/60 font-light tracking-wide leading-relaxed">
-              At KAY TEX-EXPORTERS, we bring together design, quality, and
+              At KAY TEX EXPORTERS, we bring together design, quality, and
               apparel expertise to help turn ideas into finished garments.
               Whether you're developing a new collection, sourcing apparel, or
               looking for dependable production support, our approach is built
@@ -419,7 +419,7 @@ const BasedIn = () => {
               Connected to the World.
             </h2>
             <p className="based-anim text-sm sm:text-base text-white/70 font-light tracking-wide leading-relaxed mb-8">
-              kaytex-EXPORTERS operates from India, a country with a rich
+              KAY TEX EXPORTERS operates from India, a country with a rich
               textile and apparel heritage. Being connected to one of the
               world's major garment and textile ecosystems allows us to stay
               close to materials, craftsmanship, manufacturing expertise, and
@@ -785,11 +785,11 @@ const Founders = () => {
           </span>
 
           <h2 className="font-serif text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-light tracking-wide text-white uppercase max-w-2xl leading-[1.15]">
-            The Leadership Behind KAY TEX-EXPORTERS.
+            The Leadership Behind KAY TEX EXPORTERS.
           </h2>
 
           <p className="text-[11px] sm:text-xs md:text-sm text-white/60 font-light tracking-wide mt-4 max-w-lg leading-relaxed">
-            Behind KAY TEX-EXPORTERS is a team driven by a shared passion for
+            Behind KAY TEX EXPORTERS is a team driven by a shared passion for
             apparel, quality, and building something meaningful.
           </p>
         </div>
@@ -956,7 +956,7 @@ const OurVision = () => {
           Building a Better Future for Apparel.
         </h2>
         <p className="vision-page-anim text-sm sm:text-base text-white/70 font-light tracking-wide max-w-2xl mx-auto leading-relaxed mb-10">
-          We want KAY TEX-EXPORTERS to grow into a trusted name in apparel by
+          We want KAY TEX EXPORTERS to grow into a trusted name in apparel by
           combining thoughtful design, dependable quality, responsible growth,
           and meaningful relationships.
         </p>
@@ -980,7 +980,7 @@ const AboutCTA = () => {
         </h2>
         <p className="text-xs sm:text-sm text-white/60 font-light tracking-wide mb-10 max-w-lg mx-auto leading-relaxed">
           Whether you're developing your next collection, exploring apparel
-          solutions, or simply want to know more about KAY TEX-EXPORTERS, we'd
+          solutions, or simply want to know more about KAY TEX EXPORTERS, we'd
           love to hear from you.
         </p>
 

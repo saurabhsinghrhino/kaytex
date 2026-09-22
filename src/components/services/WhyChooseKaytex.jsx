@@ -41,7 +41,7 @@ export const WhyChooseKAYTEX = () => {
     {
       num: "01",
       title: "Everything You Need, Under One Roof",
-      desc: "From design development and material sourcing to manufacturing, kaytex-EXPORTERS brings essential apparel capabilities together in one streamlined process.",
+      desc: "From design development and material sourcing to manufacturing, KAY TEX EXPORTERS brings essential apparel capabilities together in one streamlined process.",
       tag: "END-TO-END SUPPORT",
       img: "https://images.unsplash.com/photo-1618218168350-6e7c81151b64?q=80&w=2148&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
@@ -82,7 +82,7 @@ export const WhyChooseKAYTEX = () => {
           </p>
           <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl font-light uppercase tracking-tight text-white mb-6">
             Why Choose{" "}
-            <span className="italic text-[#d4c5b9]">kay tex-EXPORTERS</span>
+            <span className="italic text-[#d4c5b9]">kay tex EXPORTERS</span>
           </h2>
           <p className="text-sm font-light text-white/70 tracking-wide leading-relaxed">
             Building great apparel requires more than manufacturing. It requires
