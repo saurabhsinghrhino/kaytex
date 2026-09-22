@@ -197,7 +197,7 @@ export const Footer = () => {
         {/* Bottom Bar */}
         <div className="mt-20 pt-8 border-t border-black/10 flex flex-col sm:flex-row justify-between items-center gap-4 text-[15px] tracking-wider uppercase font-mono text-black font-bold">
           <div>
-            © {new Date().getFullYear()} KAY TEX-EXPORTERS. ALL RIGHTS RESERVED.
+            © {new Date().getFullYear()} KAY TEX EXPORTERS. ALL RIGHTS RESERVED.
           </div>
 
           <Link

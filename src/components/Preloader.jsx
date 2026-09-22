@@ -134,7 +134,7 @@ export const Preloader = ({ onComplete }) => {
           ref={brandNameRef}
           className="opacity-0 text-xs sm:text-sm md:text-base font-light uppercase tracking-[0.3em] sm:tracking-[0.35em] md:tracking-[0.4em] text-[#f5f5f5]"
         >
-          KAY TEX-EXPORTERS
+          KAY TEX EXPORTERS
         </span>
 
         {/* Minimal Progress Line */}

@@ -67,7 +67,7 @@ export const Hero = () => {
       <div className="relative z-10 mx-auto max-w-7xl px-6 md:px-12 w-full text-center md:text-left mt-16 md:mt-24">
         <div className="max-w-4xl">
           <p className="text-[10px] md:text-xs uppercase font-bold tracking-[0.4em] text-white mb-4 font-mono">
-            KAY TEX-EXPORTERS &mdash; EST. 1996
+            KAY TEX EXPORTERS &mdash; EST. 1996
           </p>
 
           <h1 className="font-serif text-5xl sm:text-6xl md:text-8xl font-light uppercase leading-[1.05] tracking-tight text-white mb-6">

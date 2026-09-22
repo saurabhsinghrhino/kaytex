@@ -112,7 +112,7 @@ export const About = () => {
             </h2>
 
             <p className="text-base font-light tracking-wide text-black/75 mb-6 leading-relaxed max-w-xl">
-              KAY TEX-EXPORTERS IS A MANUFACTURING AND EXPORTS HOUSE FOR
+              KAY TEX EXPORTERS IS A MANUFACTURING AND EXPORTS HOUSE FOR
               CLOTHING BRANDS, RETAILERS, AND SOURCING COMPANIES WORLDWIDE
               SEEKING LONG-TERM PARTNERSHIPS.
             </p>
