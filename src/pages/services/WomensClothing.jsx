@@ -393,20 +393,20 @@ export const WomensClothing = () => {
 
   const faqs = [
     {
-      q: "What types of women's apparel does kaytex-EXPORTERS manufacture?",
-      a: "kaytex-EXPORTERS focuses on womenswear and can support categories such as dresses, premium garments, and jerseywear, depending on the product requirements.",
+      q: "What types of women's apparel does KAY TEX EXPORTERS manufacture?",
+      a: "KAY TEX EXPORTERS focuses on womenswear and can support categories such as dresses, premium garments, and jerseywear, depending on the product requirements.",
     },
     {
       q: "Can I customize my garments?",
       a: "Yes. Garments can be developed around your design direction, including fabric choices, construction details, prints, embellishments, trims, and finishing requirements.",
     },
     {
-      q: "Can kaytex-EXPORTERS help with fabric sourcing?",
-      a: "Yes. kaytex-EXPORTERS provides fabric sourcing and customization support as part of the apparel development process. You can explore our fabric sourcing services for more detailed information.",
+      q: "Can KAY TEX EXPORTERS help with fabric sourcing?",
+      a: "Yes. KAY TEX EXPORTERS provides fabric sourcing and customization support as part of the apparel development process. You can explore our fabric sourcing services for more detailed information.",
     },
     {
       q: "Can you manufacture for international clothing brands?",
-      a: "kaytex-EXPORTERS works with apparel brands developing products for global markets, with a focus on coordinated product development and manufacturing.",
+      a: "KAY TEX EXPORTERS works with apparel brands developing products for global markets, with a focus on coordinated product development and manufacturing.",
     },
     {
       q: "Can you help with sampling before bulk production?",
@@ -414,15 +414,15 @@ export const WomensClothing = () => {
     },
     {
       q: "Do you support scalable production?",
-      a: "kaytex-EXPORTERS's manufacturing approach is designed to support brands as their production requirements evolve. Specific production capabilities depend on the product and project requirements.",
+      a: "KAY TEX EXPORTERS's manufacturing approach is designed to support brands as their production requirements evolve. Specific production capabilities depend on the product and project requirements.",
     },
     {
-      q: "How do I start a manufacturing project with kaytex-EXPORTERS?",
-      a: "Start by sharing your tech pack, sketches, references, or product requirements through our inquiry form. The kaytex-EXPORTERS team can then understand your project and discuss the next steps.",
+      q: "How do I start a manufacturing project with KAY TEX EXPORTERS?",
+      a: "Start by sharing your tech pack, sketches, references, or product requirements through our inquiry form. The KAY TEX EXPORTERS team can then understand your project and discuss the next steps.",
     },
     {
-      q: "Can kaytex-EXPORTERS support delivery and logistics?",
-      a: "kaytex-EXPORTERS can support coordination around delivery and logistics requirements as part of the manufacturing process. Specific arrangements depend on the project and destination.",
+      q: "Can KAY TEX EXPORTERS support delivery and logistics?",
+      a: "KAY TEX EXPORTERS can support coordination around delivery and logistics requirements as part of the manufacturing process. Specific arrangements depend on the project and destination.",
     },
   ];
 
@@ -469,7 +469,7 @@ export const WomensClothing = () => {
             ref={heroDescRef}
             className="text-xs md:text-sm font-light text-white/70 tracking-wide max-w-3xl mx-auto mb-10 leading-relaxed opacity-0"
           >
-            From product development to bulk production, kaytex-EXPORTERS works
+            From product development to bulk production, KAY TEX EXPORTERS works
             with womenswear brands to bring thoughtfully designed garments into
             production with consistency, flexibility, and a focus on long-term
             growth.
@@ -498,7 +498,7 @@ export const WomensClothing = () => {
             We Are Your Strategic Clothing Partner
           </h2>
           <p className="text-sm font-light text-white/70 leading-relaxed tracking-wide partner-anim opacity-0">
-            kaytex-EXPORTERS works alongside womenswear brands to connect
+            KAY TEX EXPORTERS works alongside womenswear brands to connect
             product development, materials, manufacturing, and production into a
             more coordinated journey. Our focus is to support brands beyond
             individual orders and build relationships that can grow with their
@@ -891,7 +891,7 @@ export const WomensClothing = () => {
             </span>
           </h2>
           <p className="text-xs md:text-sm font-light text-white/50 tracking-wide max-w-md mx-auto mb-12 leading-relaxed">
-            Share your product requirements with kaytex-EXPORTERS and let's
+            Share your product requirements with KAY TEX EXPORTERS and let's
             explore how we can support your next manufacturing project.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6">
