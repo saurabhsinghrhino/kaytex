@@ -516,7 +516,7 @@ export const FabricSourcing = () => {
           <img
             ref={heroBgRef}
             src="https://images.unsplash.com/photo-1718049942873-58bd663206dc?q=80&w=2334&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            alt="kaytex-EXPORTERS Fabric Sourcing Studio"
+            alt="kaytex EXPORTERS Fabric Sourcing Studio"
             className="w-full h-full object-cover object-center opacity-0"
           />
           <div className="absolute inset-0 bg-black/60 backdrop-blur-[2px]" />
@@ -542,9 +542,9 @@ export const FabricSourcing = () => {
             className="text-xs md:text-sm font-light text-white/70 tracking-wide max-w-2xl mx-auto mb-10 leading-relaxed opacity-0"
           >
             From everyday essentials to distinctive collection pieces, KAY TEX
-            -EXPORTERS helps clothing brands source thoughtfully selected
-            fabrics that align with their design, quality, performance, and
-            production requirements.
+            EXPORTERS helps clothing brands source thoughtfully selected fabrics
+            that align with their design, quality, performance, and production
+            requirements.
           </p>
           <div ref={heroBtnRef} className="opacity-0">
             <Link
@@ -597,8 +597,8 @@ export const FabricSourcing = () => {
             <p className="text-xs md:text-sm font-light text-white/70 leading-relaxed tracking-wide mb-6 expert-anim opacity-0">
               India's textile ecosystem offers a wide range of fibers,
               constructions, finishes, and manufacturing capabilities. KAY TEX
-              -EXPORTERS helps brands navigate this landscape to identify
-              fabrics that align with the intended look, feel, performance, and
+              EXPORTERS helps brands navigate this landscape to identify fabrics
+              that align with the intended look, feel, performance, and
               production requirements of each collection.
             </p>
             <p className="text-xs md:text-sm font-light text-white/70 leading-relaxed tracking-wide mb-8 expert-anim opacity-0">
@@ -946,7 +946,7 @@ export const FabricSourcing = () => {
               CAPABILITIES
             </p>
             <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl font-light uppercase tracking-tight text-white mb-6">
-              Why Brands Choose kaytex-EXPORTERS <br />
+              Why Brands Choose KAY TEX EXPORTERS <br />
               <span className="italic text-[#d4c5b9]">for Fabric Sourcing</span>
             </h2>
             <p className="text-sm font-light text-white/70 tracking-wide leading-relaxed">

@@ -428,7 +428,7 @@ export const ClothingDesign = () => {
   const testimonials = [
     {
       quote:
-        "kaytex-EXPORTERS helped us turn an early concept into a much clearer product direction. Their attention to the details made the development process far easier.",
+        "KAY TEX EXPORTERS helped us turn an early concept into a much clearer product direction. Their attention to the details made the development process far easier.",
       name: "Alex Morgan",
       role: "Founder, Northline Studio",
     },
@@ -461,7 +461,7 @@ export const ClothingDesign = () => {
           <img
             ref={heroBgRef}
             src={heroBg}
-            alt="kaytex-EXPORTERS Premium Apparel Development Studio"
+            alt="KAY TEX EXPORTERS Premium Apparel Development Studio"
             className="w-full h-full object-cover object-center opacity-0"
           />
           <div className="absolute inset-0 bg-black/60 backdrop-blur-[2px]" />
@@ -488,7 +488,7 @@ export const ClothingDesign = () => {
             className="text-xs md:text-sm font-light text-white/70 tracking-wide max-w-2xl mx-auto mb-10 leading-relaxed opacity-0"
           >
             From your first idea to a refined, production-ready garment, KAY TEX
-            -EXPORTERS helps turn creative concepts into apparel that reflects
+            EXPORTERS helps turn creative concepts into apparel that reflects
             your brand, your audience, and your vision.
           </p>
           <div ref={heroBtnRef} className="opacity-0">
@@ -544,7 +544,7 @@ export const ClothingDesign = () => {
               decision contributes to how a product looks, feels, and performs.
             </p>
             <p className="text-xs md:text-sm font-light text-white/70 leading-relaxed tracking-wide intro-anim opacity-0">
-              At kaytex-EXPORTERS, we approach clothing design with both
+              At KAY TEX EXPORTERS, we approach clothing design with both
               creativity and practicality &mdash; helping brands develop apparel
               that stays true to their vision while being clear and ready for
               the next stages of development.
@@ -645,7 +645,7 @@ export const ClothingDesign = () => {
             manage.
           </p>
           <p className="text-xs md:text-sm font-light text-white/60 tracking-wide max-w-xl mx-auto leading-relaxed">
-            At kaytex-EXPORTERS, our design documentation is created with
+            At KAY TEX EXPORTERS, our design documentation is created with
             production in mind &mdash; helping reduce unnecessary revisions,
             improve communication, and give every garment a clearer path toward
             development.
@@ -667,7 +667,7 @@ export const ClothingDesign = () => {
             <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl font-light uppercase tracking-tight text-white mb-6">
               Why Choose{" "}
               <span className="italic text-[#d4c5b9]">
-                kaytex-EXPORTERS Design?
+                KAY TEX EXPORTERS Design?
               </span>
             </h2>
             <p className="text-sm font-light text-white/70 tracking-wide leading-relaxed">
